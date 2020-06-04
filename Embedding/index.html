@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<!-- To add comments, press Ctrl + forward arrow + forward slash -->
+
+<!-- To duplicate: Shift + Alt + Down/Up -->
+<!-- To generate the skeleton of an html page, use the shortcut  -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🙌 Embedding with DSThirteam</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>Embedded Analytics 💕</h1>
+    <div>
+      <button id="hideButton">
+        "Hide the Viz"
+      </button>
+      <button id="showButton">
+        "Show the Viz"
+      </button>
+      <button id="exportButton">
+        "Export PDF"
+      </button>
+      <button id="exportPPTButton">
+        "Export PPT"
+      </button>
+    </div>
+    <br />
+    <div>
+      <input type="number" placeholder="Minimum Value" id="minValue" />
+      <input type="number" placeholder="Maximum Value" id="maxValue" />
+      <button id="applyFilter">Apply Filter</button>
+    </div>
+    <div id="vizContainer"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
